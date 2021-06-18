@@ -1,0 +1,17 @@
+.card {
+  margin-bottom: 2rem;
+
+  h3 {
+    margin-top: -0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-primary);
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+}

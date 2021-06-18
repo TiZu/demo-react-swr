@@ -1,0 +1,13 @@
+.author {
+  font-size: small;
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-primary);
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import 'primeflex/primeflex.css';
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+
+html,
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: var(--surface-200);
+  color: var(--text-color);
+}
