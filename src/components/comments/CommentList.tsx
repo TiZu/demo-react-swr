@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 
 import { CreateCommentDto, CommentDto, useCommentsByPostId, requestCreateComment } from '../../data/comments';
+import { FetchError } from '../../data/fetchError';
 
 import LoadingBar from '../common/LoadingBar';
 import ErrorMessage from '../common/ErrorMessage';
@@ -10,7 +11,6 @@ import CommentForm, { IFormData } from './CommentForm';
 import { Toast } from 'primereact/toast';
 import { Divider } from 'primereact/divider';
 import { Fieldset } from 'primereact/fieldset';
-import { FetchError } from '../../data/fetchError';
 
 interface CommentListProps {
   postId: number;
